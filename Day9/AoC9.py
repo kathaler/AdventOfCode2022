@@ -19,21 +19,18 @@ def calc_tail_move(r1, c1, r2, c2):
         elif r2 - r1 == 2:
             r2 -= 1
     elif abs(r1 - r2) == 2 and c2 - c1 == 1:
-        print("here2")
         c2 = c1
         if r1 - r2 == 2:
             r2 += 1
         elif r2 - r1 == 2:
             r2 -= 1
     elif r1 - r2 == 1 and abs(c1-c2) == 2:
-        print("here3")
         r2 = r1
         if c1 - c2 == 2:
             c2 += 1
         elif c2 - c1 == 2:
             c2 -= 1
     elif r2 - r1 == 1 and abs(c1-c2) == 2:
-        print("here4")
         r2 = r1
         if c1 - c2 == 2:
             c2 += 1
@@ -46,7 +43,7 @@ def calc_tail_move(r1, c1, r2, c2):
 
 h = set()
 t = set()
-f = open("AoC9.txt", "r")
+f = open("Day9/AoC9.txt", "r")
 hx = 0
 hy = 0
 tx = 0
