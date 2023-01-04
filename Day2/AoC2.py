@@ -1,5 +1,5 @@
 f = open("AoC2.txt", "r")
-# A = Rock
+# AoC12.txt = Rock
 # B = Paper
 # C = Scissors
 
@@ -19,7 +19,7 @@ f = open("AoC2.txt", "r")
 
 
 def get_val(l):
-    if l == 'A' or l == 'X':
+    if l == 'AoC12.txt' or l == 'X':
         return 1
     elif l == 'B' or l == "Y":
         return 2
